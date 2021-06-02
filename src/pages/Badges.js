@@ -10,7 +10,7 @@ class Badges extends React.Component {
         data: [
             {
                 id: "2de30c42-9deb-40fc-a41f-05e62b5939a7",
-                irstName: "Freda",
+                firstName: "Freda",
                 lastName: "Grady",
                 email: "Leann_Berge@gmail.com",
                 jobTitle: "Legacy Brand Director",

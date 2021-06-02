@@ -13,7 +13,7 @@ class BadgesList extends React.Component {
                                 <img src="https://www.gravatar.com/avatar?d=identicon" alt="Avatar" />
                             </div>
                             <div className="Badge_description">
-                                <h2 className='Badge_name'> {badge.firsName}{badge.lastName}</h2>
+                                <h2 className='Badge_name'> {badge.firstName} {badge.lastName}</h2>
                                 <div className="Badge_twitter">
                                     <img src={twitterIcon} alt="" />
                                     <a href={badge.twitter}>{badge.twitter}</a>
