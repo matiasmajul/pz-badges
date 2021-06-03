@@ -14,8 +14,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
-import App from './components/App'
 
+import App from './components/App';
 /* const element = React.createElement('a',{
     href:'https://platzi.com'
 },'Ir a Platzi')
