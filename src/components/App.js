@@ -9,7 +9,6 @@ function App() {
     return (
         <BrowserRouter>
             <Layout>
-
                 <Switch>
                     <Route exact path="/badges/new" component={BadgeNew} />
                     <Route exact path="/badges" component={Badges} />
