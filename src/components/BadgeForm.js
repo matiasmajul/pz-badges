@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/BadgeForm.css'
 
 class Badgeform extends React.Component {
     //state = {}
@@ -29,7 +30,7 @@ class Badgeform extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="BadgeForm">
                 <h1>New Attendant</h1>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
@@ -78,6 +79,8 @@ class Badgeform extends React.Component {
                             value={this.props.formValue.twitter}
                         />
                     </div>
+
+                    <button type="button" onClick={this.handleClick} className="btn btn-picture">Profile picture uploaded</button>
                     <button type="button" onClick={this.handleClick} className="btn btn-primary">Save</button>
                 </form>
             </div>)

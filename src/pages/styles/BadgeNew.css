@@ -6,3 +6,18 @@
   margin-bottom: 1rem;
   color: #ffffff;
 }
+
+.BadgeNew__container {
+  padding: 10px;
+  position: relative;
+  left: auto;
+}
+
+.BadgeNew__container .col {
+  width: 400px;
+}
+.BadgeNew__container .col-6 {
+  position: relative;
+  width: 400px;
+  top: -8rem;
+}

@@ -1,0 +1,32 @@
+.BadgeForm {
+}
+
+.BadgeForm h1 {
+  background-color: none;
+  color: white;
+  padding: 0;
+  text-align: center;
+}
+
+.BadgeNew__container {
+  position: absolute;
+}
+
+.BadgeForm form {
+  padding: 1rem 1rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.BadgeForm .btn-picture {
+  width: 70%;
+  color: white;
+  background-color: rgb(78, 153, 252);
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+.BadgeForm .btn-primary {
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
