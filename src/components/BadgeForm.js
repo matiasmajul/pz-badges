@@ -31,7 +31,7 @@ class Badgeform extends React.Component {
     render() {
         return (
             <div className="BadgeForm">
-                <h1>New Attendant</h1>
+                <h1>NEW ATTENDANT</h1>
                 <form onSubmit={this.handleSubmit}>
                     <div className="form-group">
                         <label >First Name</label>
@@ -82,10 +82,10 @@ class Badgeform extends React.Component {
                     </div>
                     <div className="btn-group">
 
-                        <button type="button" onClick={this.handleClick} className="btn-picture">Profile picture uploaded</button>
+                        <button type="button" onClick={this.handleClick} className="btn-picture">Uppload profile picture</button>
                         <div className="terms">
                             <input type="checkbox" name="Terminos y condiciones" />
-                            I accept the <a href="http://">terms of service</a>  and the <a href="http://">privacy policy</a>
+                             I accept the <a href="http://">terms of service</a>  and the <a href="http://">privacy policy</a>
                         </div>
 
 

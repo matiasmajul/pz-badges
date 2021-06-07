@@ -20,12 +20,11 @@
   padding: 0 1rem;
 }
 
+
 .Badges_conf-logo {
   margin-bottom: 2rem;
 }
 
 .Badges__buttons {
-  display: flex;
-  justify-content: flex-end;
   margin-bottom: 1rem;
 }

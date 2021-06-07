@@ -9,9 +9,12 @@
   padding: 0 1rem;
   background-color: white;
   border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
 }
 .BadgeForm .form-group {
   padding: 0.7rem 0;
+  font-weight: bold;
 }
 .BadgeForm .form-group input {
   background-color: rgb(233, 233, 233);
@@ -29,6 +32,10 @@
   align-self: flex-start;
   font-size: 15px;
   color: rgb(71, 71, 71);
+  
+}
+.btn-group input{
+  margin: 0 .1rem;
 }
 
 .BadgeForm .btn-group .terms a {
@@ -48,8 +55,9 @@
   box-shadow: 5px 5px 5px rgb(78, 153, 252);
 }
 .BadgeForm .btn-primary {
+  font-weight: bold;
   border: none;
-  background-color: rgb(83, 233, 70);
+  background-color: #98CA3F;
   border-radius: 5px;
   width: 100%;
   padding: 1rem 0;
