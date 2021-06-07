@@ -1,6 +1,3 @@
-.BadgeForm {
-}
-
 .BadgeForm h1 {
   background-color: none;
   color: white;
@@ -8,24 +5,52 @@
   text-align: center;
 }
 
-.BadgeNew__container {
-  position: absolute;
+.BadgeForm form {
+  padding: 0 1rem;
+  background-color: white;
+  border-radius: 5px;
+}
+.BadgeForm .form-group {
+  padding: 0.7rem 0;
+}
+.BadgeForm .form-group input {
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(187, 187, 187);
 }
 
-.BadgeForm form {
-  padding: 1rem 1rem;
-  background-color: white;
-  border-radius: 10px;
+.BadgeForm .btn-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.BadgeForm .btn-group .terms {
+  align-self: flex-start;
+  font-size: 15px;
+  color: rgb(71, 71, 71);
+}
+
+.BadgeForm .btn-group .terms a {
+  text-decoration: none;
 }
 
 .BadgeForm .btn-picture {
+  border-radius: 5px;
   width: 70%;
-  color: white;
-  background-color: rgb(78, 153, 252);
+  background-color: white;
+  color: rgb(78, 153, 252);
+  border-color: rgb(78, 153, 252);
   padding: 1rem 0;
   margin: 1rem 0;
 }
+.BadgeForm .btn-picture:hover {
+  box-shadow: 5px 5px 5px rgb(78, 153, 252);
+}
 .BadgeForm .btn-primary {
+  border: none;
+  background-color: rgb(83, 233, 70);
+  border-radius: 5px;
   width: 100%;
   padding: 1rem 0;
   margin: 1rem 0;

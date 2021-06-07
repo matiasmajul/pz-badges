@@ -51,6 +51,7 @@ class Badgeform extends React.Component {
                             name="lastName"
                             value={this.props.formValue.lastName} />
                     </div>
+                    <hr />
                     <div className="form-group">
                         <label >Email</label>
                         <input
@@ -79,9 +80,17 @@ class Badgeform extends React.Component {
                             value={this.props.formValue.twitter}
                         />
                     </div>
+                    <div className="btn-group">
 
-                    <button type="button" onClick={this.handleClick} className="btn btn-picture">Profile picture uploaded</button>
-                    <button type="button" onClick={this.handleClick} className="btn btn-primary">Save</button>
+                        <button type="button" onClick={this.handleClick} className="btn-picture">Profile picture uploaded</button>
+                        <div className="terms">
+                            <input type="checkbox" name="Terminos y condiciones" />
+                            I accept the <a href="http://">terms of service</a>  and the <a href="http://">privacy policy</a>
+                        </div>
+
+
+                        <button type="button" onClick={this.handleClick} className="btn-primary">Save</button>
+                    </div>
                 </form>
             </div>)
     }

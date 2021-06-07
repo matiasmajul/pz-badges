@@ -1,6 +1,6 @@
 .BadgeNew__hero {
   width: 100%;
-  padding: 2rem 0;
+  padding: 2rem 20rem;
   background: url("../../images/stars.svg"), #1b1b25;
   background-repeat: repeat;
   margin-bottom: 1rem;
@@ -9,8 +9,8 @@
 
 .BadgeNew__container {
   padding: 10px;
-  position: relative;
-  left: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .BadgeNew__container .col {
@@ -19,5 +19,5 @@
 .BadgeNew__container .col-6 {
   position: relative;
   width: 400px;
-  top: -8rem;
+  top: -14rem;
 }
