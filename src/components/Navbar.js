@@ -15,7 +15,7 @@ class Navbar extends React.Component {
                     <div className="Navbar__menu">
                         <ul className="Navbar__lenguage">
                             <li>ES</li>
-                           
+
                         </ul>
                         <ul className="Navbar__nav">
                             <li><a href="/">Cursos</a></li>

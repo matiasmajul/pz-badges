@@ -1,4 +1,4 @@
-.BadgeNew__hero {
+.BadgeEdit__hero {
   width: 100%;
   padding: 2rem;
   background: url("../../images/stars.svg"), #1b1b25;
@@ -10,10 +10,9 @@
   justify-content: center;
 }
 
-.BadgeNew__hero-image {
+.BadgeEdit__hero-image {
   max-height: 100px;
 }
-
-.BadgeNew__container {
+.BadgeEdit__container {
   margin: 0 10rem;
 }

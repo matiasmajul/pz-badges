@@ -22,17 +22,16 @@ class Badgeform extends React.Component {
         console.log("Button click");
     }
 
-    handleSubmit = e => {
-        e.preventDefault();
-        console.log('Form was submitted')
-        console.log(this.state)
-    }
+    /*     handleSubmit = e => {
+            e.preventDefault();
+            console.log('Form was submitted')
+            console.log(this.state)
+        } */
 
     render() {
         return (
             <div className="BadgeForm">
-                <h1>NEW ATTENDANT</h1>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.props.onSubmit}>
                     <div className="form-group">
                         <label >First Name</label>
                         <input
@@ -59,7 +58,7 @@ class Badgeform extends React.Component {
                             className="form-control"
                             type="email"
                             name="email"
-                            vale={this.props.formValue.email} />
+                            value={this.props.formValue.email} />
                     </div>
                     <div className="form-group">
                         <label >Job Title</label>
@@ -81,16 +80,16 @@ class Badgeform extends React.Component {
                         />
                     </div>
                     <div className="btn-group">
-
-                        <button type="button" onClick={this.handleClick} className="btn-picture">Uppload profile picture</button>
+                        {/*   <button type="button" onClick={this.handleClick} className="btn-picture">Uppload profile picture</button>
                         <div className="terms">
                             <input type="checkbox" name="Terminos y condiciones" />
                              I accept the <a href="http://">terms of service</a>  and the <a href="http://">privacy policy</a>
-                        </div>
-
-
-                        <button type="button" onClick={this.handleClick} className="btn-primary">Save</button>
+                        </div> */}
+                        <button type="button" onClick={this.props.onSubmit} className="btn-primary">Save</button>
                     </div>
+                    {this.props.error && (
+                        <p className="text-danger">{this.props.error.message}</p>
+                    )}
                 </form>
             </div>)
     }
